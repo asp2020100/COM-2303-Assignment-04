@@ -324,6 +324,20 @@ header {
     width: 100%;
   }
 
+
+  /*login*/
+
+.login button {
+    display: block;
+    width: 10%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
   /*Footer*/
   html, body {
     height: 100%;

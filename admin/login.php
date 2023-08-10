@@ -8,10 +8,13 @@
 <body>
     <from method="post" action="login_action.php">
         <h2> YP | Login </h2><br>
+        Email:<br>
         <input type="text" name="email" placeholder="Email"><br><br>
+        Password : <br>
         <input type="password" name="password" placeholder="Password"><br><br>
-        <input type="submit" name="login" value="Login"><br><br>
-        <p>Don't have an account? <a href="register.php">Register</a></p>
+
+        <input type="submit" value="Login"><br><br>
+        <p>Don't have an account? <a href="signup.php">Register</a></p>
         </from>
 </body>
 </html>
