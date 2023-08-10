@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Yasas Pamudu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  </head>
+  <body>
+    <header>
+        <h1 class="logo">YASAS PAMUDU</h1>
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skill</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            
+          </ul>
+        </nav>
+      </header>
+      <div class="content">
+      <main>
+        <section id="home">
+          <br><br><br><br>
+
+          <div id="slider">
+            <div class="slide">
+              <img src="slide/campaign-creators-iEiUITs149M-unsplash.jpg" alt="Image 1">
+              <div class="slide-content">
+                <h2>YASAS PAMUDU</h2>
+                <p>Welcome to my Portfolio</p>
+              </div>
+            </div>
+            <div class="slide">
+              <img src="slide/fotis-fotopoulos-DuHKoV44prg-unsplash.jpg" alt="Image 2">
+              <div class="slide-content">
+                <h2>YASAS PAMUDU</h2>
+                <p>Undergraduate Student.</p>
+              </div>
+            </div>
+            <div class="slide">
+              <img src="slide/kelly-sikkema-v9FQR4tbIq8-unsplash.jpg" alt="Image 3">
+              <div class="slide-content">
+                <h2>YASAS PAMUDU</h2>
+                <p>This is my work</p>
+              </div>
+            </div>
+          </div>
+          
+          <script>
+            const slides = document.querySelectorAll('.slide');
+            let currentSlide = 0;
+          
+            function showSlide() {
+              // Hide all slides
+              for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = 'none';
+              }
+              // Show the current slide
+              slides[currentSlide].style.display = 'block';
+            }
+          
+            function nextSlide() {
+              currentSlide++;
+              if (currentSlide >= slides.length) {
+                currentSlide = 0;
+              }
+              showSlide();
+            }
+          
+            // Automatically advance to the next slide every 5 seconds
+            setInterval(nextSlide, 5000);
+          
+            // Show the first slide initially
+            showSlide();
+          </script>
+          
+          
+
+            <h1>Welcome to my Portfolio</h1>
+            <img class="round" src="img/logo.jpg" alt="Profile Picture">
+            <div class="typing">
+              <span class="text"></span>
+              <span class="cursor"></span>
+            </div>
+          
+            <br>
+            <p>I am an undergraduate student in the Faculty of Applied Science,<br> Rajarata University, Sri Lanka.</p>
+          </section>
+        
+        <section id="about" class="about">
+          <h2>About</h2>
+          <p>
+
+            Hi. My name is Yasas Pamudu and I began using Computer since i was 11 years old. I've spent most of time working with learning computers and its behaviours.
+            <br></p>
+
+                    <button id="toggleButton">Read More</button>
+                    <div id="additionalInfo" style="display: none;">
+                    <p><br>As an undergraduate student, creating a portfolio site can be a valuable way to showcase your skills, experiences, and achievements to potential employers, clients, or graduate schools. My portfolio site reflect my unique brand and personality, and feature my best work samples in a clear and organized manner. </p>
+                    
+                    </div>
+
+                    <script>
+                      const toggleButton = document.getElementById('toggleButton');
+                      const additionalInfo = document.getElementById('additionalInfo');
+
+                      toggleButton.addEventListener('click', function() {
+                        if (additionalInfo.style.display === 'none') {
+                          additionalInfo.style.display = 'block';
+                          toggleButton.textContent = 'Hide';
+                        } else {
+                          additionalInfo.style.display = 'none';
+                          toggleButton.textContent = 'Show More';
+                        }
+                      });
+                    </script>
+
+           <br><br>
+
+            <div class="grid-container">
+                <div class="grid-item">
+                  <h3>Personal Information</h3><br>
+                  <ul>
+                    <li><strong>Birth Year:</strong> 2000</li>
+                    <li><strong>Age:</strong> 23</li>
+                    <li><strong>Address:</strong> Stage 3, Anuradhapura</li>
+                    <li><strong>Email:</strong> asp2020100@as.rjt.ac.lk</li>
+                
+                  </ul>
+                </div>
+                <div class="grid-item">
+                  <h3>Education and Experience</h3><br>
+                  <ul>
+                    <li><strong>Nationality:</strong> Sri Lankan</li>
+                    <li><strong>Study:</strong> Rajarata University of Sri Lanka</li>
+                    <li><strong>Degree:</strong> BSc. Applied Sciences (Physical Science)</li>
+                    <li><strong>Interest:</strong> Networking and Cloud Security</li>
+                    
+                  </ul>
+                </div>
+              </div>
+        </section>
+
+        
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="grid-container">
+    <div class="column">
+      <h3>Programming Skills</h3>
+      <ul>
+        <li>WordPress <span class="bar"><span style="width: 95%;">95%</span></span></li>
+        <li>Bash <span class="bar"><span style="width: 80%;">80%</span></span></li>
+        <li>Java Script <span class="bar"><span style="width: 75%;">75%</span></span></li>
+      </ul>
+    </div>
+    <div class="column">
+      <h3>Language Skills</h3>
+      <ul>
+        <li>English <span class="bar"><span style="width: 90%;">90%</span></span></li>
+        <li>Sinhala <span class="bar"><span style="width: 95%;">95%</span></span></li>
+        <li>Tamil <span class="bar"><span style="width: 5%;">5%</span></span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+          
+      
+<section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="container">
+        <div class="item">
+            <a href="https://ruslfas2019.eu.org" target="_blank">
+              <img src="img/ruslfas2019.us.eu.org.png" alt="RUSLFAS2019 LOGO">
+            </a>
+            <div class="caption">
+                <h3>RUSLFAS2019</h3>
+                <p>All - In - One Stop for Students</p>
+
+                
+
+
+
+
+             </div>
+          </div>
+
+          <div class="item">
+            <a href="https://stats.uptimerobot.com/MAY3Qt2Zxo" target="_blank">
+              <img src="img/uptime.png" alt="RUSLFAS2019 LOGO">
+            </a>
+            <div class="caption">
+                <h3>RUSLFAS2019 Uptime</h3>
+                <p>Simple UpTime Monitor for FAS Network</p>
+             </div>
+          </div>
+
+          <div class="item">
+            <a href="http://t.me/ruslfas2019chatbot" target="_blank">
+              <img src="img/bot.png" alt="RUSLFAS2019 LOGO">
+            </a>
+            <div class="caption">
+                <h3>RUSLFAS2019 BOT</h3>
+                <p>Simple Python Notification Bot for Telegram <a href="https://github.com/asp2020100/tg-notification-bot" target="_blank"><i class="fab fa-github"></i></a></p>
+             </div>
+          </div>
+
+          <div class="item">
+            <a href="https://sopa.ruslfas2019.us.eu.org/" target="_blank">
+              <img src="img/sopa.ruslfas2019.us.eu.org.png" alt="SOPA EVENT">
+            </a>
+            <div class="caption">
+                <h3>SOPA - RUSL - EVENT SITE</h3>
+                <p>Simple Countdown Site with Registration From</p>
+             </div>
+          </div>
+
+          <div class="item">
+            <a href="https://dvdc2022.ruslfas2019.us.eu.org/" target="_blank">
+              <img src="img/dvdc2022.ruslfas2019.us.eu.org.png" alt="DVDC 2020">
+            </a>
+            <div class="caption">
+                <h3>DVDC 2020 SITE </h3>
+                <p>MAA1302 Probability and Statistics I</p>
+             </div>
+          </div>
+
+          <div class="item">
+            <a href="http://yasaspamudu.org.lk/" target="_blank">
+              <img src="img/yasaspamudu.org.lk.png" alt="yasaspamudu.org.lk">
+            </a>
+            <div class="caption">
+                <h3>MY OFFICIAL SITE </h3>
+                <p>Under Construction with <i class="fab fa-wordpress"></i></p>
+             </div>
+          </div>
+         
+  </section>
+  
+  <section id="contact">
+    <h2>Contact Me</h2>
+ 
+    <form id="my-form" class="contact-form" action="https://formspree.io/f/xdovrabz" method="POST">
+      <label>Email:</label>
+      <input type="email" name="email" required />
+      <label>Message:</label>
+      <textarea name="message" required></textarea>
+      <button id="my-form-button">Submit</button>
+      <p id="my-form-status"></p>
+    </form>
+    <!-- Place this script at the end of the body tag -->
+    <script>
+      var form = document.getElementById("my-form");
+      var emailInput = document.querySelector('input[name="email"]');
+      var messageInput = document.querySelector('textarea[name="message"]');
+      var status = document.getElementById("my-form-status");
+    
+      form.addEventListener("submit", function (event) {
+        event.preventDefault();
+        if (validateForm()) {
+          submitForm();
+        }
+      });
+    
+      function validateForm() {
+        var isValid = true;
+    
+        if (!emailInput.checkValidity()) {
+          isValid = false;
+          displayErrorMessage("Please enter a valid email address.");
+        }
+    
+        if (messageInput.value.trim() === "") {
+          isValid = false;
+          displayErrorMessage("Please enter a message.");
+        }
+    
+        return isValid;
+      }
+    
+      function displayErrorMessage(message) {
+        status.textContent = message;
+        status.style.color = "red";
+      }
+    
+      function submitForm() {
+        status.textContent = "Sending...";
+        status.style.color = "black";
+    
+        var data = new FormData(form);
+        fetch(form.action, {
+          method: form.method,
+          body: data,
+          headers: {
+            Accept: "application/json",
+          },
+        })
+          .then(function (response) {
+            if (response.ok) {
+              status.textContent = "Thanks for your submission!";
+              form.reset();
+            } else {
+              response.json().then(function (data) {
+                if (data && data.errors) {
+                  displayErrorMessage(data.errors[0].message);
+                } else {
+                  displayErrorMessage("Oops! There was a problem submitting your form.");
+                }
+              });
+            }
+          })
+          .catch(function (error) {
+            displayErrorMessage("Oops! There was a problem submitting your form.");
+          });
+      }
+    </script>
+
+  </section>
+
+ 
+
+
+      </main>
+    </div>
+      
+    <aside>
+      <h2>Referances</h2>
+      
+      <ul>
+        
+        <li><a href="https://github.com/asp2020100/COM-2303-Assignment-03/blob/main/Assignment%2003.pdf"> <i class="fas fa-file-pdf"></i> COM2303 Assignment 02</a></li>
+        <li><a href="https://pages.cloudflare.com/"><i class="fab fa-cloudflare"></i> Cloudflare Pagers</a></li>
+        <li><a href="https://github.com/asp2020100/COM-2303-Assignment-03"><i class="fab fa-github"></i> Github Project</a></li>
+      </ul>
+    </aside>
+    <br> <br> <br> <br> <br>
+
+    <footer class="footer">
+  
+      
+      <p><a href="https://github.com/asp2020100"><i class="fab fa-github"></i></a></p>
+        <p><a href="https://t.me/yasaspamudu"><i class="fab fa-telegram"></i></a></p>
+          <p><a href="https://wa.me/94786524267?text=I'm%20interested%20in%20your%20portfolio"><i class="fab fa-whatsapp"></i></a></p>
+      
+  
+       
+      <p><i class="fas fa-map-marker-alt"></i> Stage 3, Anuradhapura, Sri Lanka</p>
+      <p><i class="fas fa-envelope"></i> <a href="mailto:asp2020100@as.rjt.ac.lk">asp2020100@as.rjt.ac.lk</a> </p>
+      <p><i class="fas fa-phone"></i> <a href="tel:+94786524267"> +94 78 652 4267 </a></p>
+      <p>© 2023 | <a href="https://com-2303-assignment-03.pages.dev/">ASP2020100</a>.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
