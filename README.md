@@ -16,6 +16,6 @@ User Update from Dashboard - Working on some bugs !
 
 Finale Site will be hosting on elhcloud.eu.org (My Self Hosted Web Hosting Service) Powerd by , 
 
-<p><img src="https://www.cloudpanel.io/assets/images/logo.svg?2.0.0" alt="CP" width="168" height="28" /></p><p><a href="https://www.cloudpanel.io/" target="_blank">Cloud Panel - The Open Source Project</a></p>
+<p><a href="https://www.cloudpanel.io/" target="_blank"><img src="https://www.cloudpanel.io/assets/images/logo.svg?2.0.0" width="168" height="28" /></a></p>
 
 Site - https://4840.eu.org
