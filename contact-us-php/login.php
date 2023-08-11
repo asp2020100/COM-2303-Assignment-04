@@ -14,7 +14,11 @@
         <label for="password">Password:</label>
         <input type="password" id="password" name="password" required><br><br>
         
-        <input type="submit" value="Login">
+        <input type="submit" value="Login"><br><br>
+        <a href="../index.html" class="home-link">
+        <span class="home-icon">🏠</span> Back to Home
+            </a>
+
     </form>
     </div>
 </body>
