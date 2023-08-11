@@ -22,13 +22,13 @@ if (isset($GET['id'])){
         echo "<form action='update.inc.php' method='POST'>";
 
         echo "<label for name >Username</label><br>";
-        echo "<input type='text' name='username' value='$username'><br>";
+        echo "<input type='text' name='username' value='"$username"'><br>";
 
         echo "<label for name >Email</label><br>";
-        echo "<input type='text' name='email' value='$email'><br>";
+        echo "<input type='text' name='email' value='"$email"'><br>";
 
         echo "<label for name >Password</label><br>";
-        echo "<input type='text' name='password' value='$password'><br>";
+        echo "<input type='text' name='password' value='"$password"'><br>";
 
         echo "<button type='submit' name='update'>Update</button>";
         echo "</form>";
