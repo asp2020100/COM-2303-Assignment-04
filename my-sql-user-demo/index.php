@@ -1,0 +1,9 @@
+<?php
+include("connection.php");
+
+if(!isset($_SESSION['user'])){
+   header("location: login.php");
+}else{
+    header("location: display.php");
+}
+?>
