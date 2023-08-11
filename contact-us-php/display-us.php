@@ -34,6 +34,7 @@ $conn->close();
 <html>
 <head>
     <title>Display Saved Data</title>
+    <link rel="stylesheet" type="text/css" href="display-us.css">
 </head>
 <body>
     <h1>Saved Contact Data</h1>
