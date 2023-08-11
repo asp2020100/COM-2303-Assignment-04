@@ -23,3 +23,4 @@ if($email == ""){
         echo "Login success";
     }
 }
+?>

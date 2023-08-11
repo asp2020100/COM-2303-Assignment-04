@@ -8,3 +8,4 @@ if(!isset($_SESSION['user'])){
     echo "Welcome ".$_SESSION['user']['name']; 
     echo "<br><a href='logout.php'>Logout</a>";
 }
+?>

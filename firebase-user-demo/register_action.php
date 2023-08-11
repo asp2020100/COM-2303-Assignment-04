@@ -22,3 +22,4 @@ if(count($data) > 0){
             echo "Sing up failed"
     }
 }
+?>
