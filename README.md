@@ -11,6 +11,10 @@ Password
 pass
 ```
 
+User Registration - Done !
+
+User login - Done !
+
 # Dev Branch
 
 Firebase User System - Have some bugs to fix (i'm not going to dev. this)
