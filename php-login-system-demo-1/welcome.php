@@ -23,7 +23,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-// Delete functionality - Close 
+// Delete functionality - Closed
 /*
 if (isset($_GET['delete']) && isset($_GET['email'])) {
     $deleteEmail = $_GET['email'];
