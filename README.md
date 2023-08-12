@@ -27,7 +27,7 @@ User Update from Dashboard - Working on some bugs !
 
 PMS - Working on some bugs !
 
-# Published 
+# Publishing
 Finale Site will be hosting on elhcloud.eu.org (My Self Hosted Web Hosting Service) Powerd by , 
 
 <p><a href="https://www.cloudpanel.io/" target="_blank"><img src="https://www.cloudpanel.io/assets/images/logo.svg?2.0.0" width="168" height="28" /></a></p>
