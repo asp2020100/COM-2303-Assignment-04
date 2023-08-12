@@ -23,8 +23,8 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-// Delete functionality
-
+// Delete functionality - Close 
+/*
 if (isset($_GET['delete']) && isset($_GET['email'])) {
     $deleteEmail = $_GET['email'];
     $sql = "DELETE FROM contact_us WHERE email = '$deleteEmail'";
@@ -36,6 +36,7 @@ if (isset($_GET['delete']) && isset($_GET['email'])) {
         echo "Error deleting record: " . $conn->error;
     }
 }
+*/
 
 // Retrieve data from the database
 $sql = "SELECT * FROM contact_us";
@@ -69,7 +70,7 @@ $conn->close();
             echo "<p><strong>Name:</strong> " . $row["name"] . "<br>";
             echo "<strong>Email:</strong> " . $row["email"] . "<br>";
             echo "<strong>Message:</strong> " . $row["message"] . "</p>";
-            echo "<a href='?delete=true&email=" . $row["email"] . "'>Delete</a>";
+           /* echo "<a href='?delete=true&email=" . $row["email"] . "'>Delete</a>";.*/
             echo "</div>";
         }
     } else {
@@ -83,6 +84,7 @@ $conn->close();
     <p>
         <a href="reset-password.php" class="btn btn-warning">Reset Your Password</a>
         <a href="logout.php" class="btn btn-danger ml-3">Sign Out of Your Account</a>
+        <a href="http://localhost/COM-2303-Assignment-04/contact-us-php/login.php" class="btn btn-danger ml-3">Delete Contact us Data </a>
     </p>
 </body>
 </html>
