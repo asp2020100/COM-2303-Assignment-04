@@ -34,7 +34,9 @@ Finale Site will be hosting on elhcloud.eu.org (My Self Hosted Web Hosting Servi
 
 And,
 
-![image](https://github.com/asp2020100/COM-2303-Assignment-04/assets/122531660/643ded52-d841-48b4-b210-e8c56095645e)
+![image](https://github.com/asp2020100/COM-2303-Assignment-04/assets/122531660/e6629e65-b45f-4a03-8935-6c6c33c201e8)
+
+Data Center : India West ( Mumbai )
 
 
 Site - https://4840.eu.org
